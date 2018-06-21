@@ -1,4 +1,4 @@
-# Maquetación - Front End B-learning
+﻿# Maquetación - Front End B-learning
 
 ## Maquetando una entrada de blog
 
@@ -40,3 +40,49 @@ Recuerda que la página web deberá ser responsiva. Toma como referencia el sigu
 Luego debes enviar los cambios (vía push) y subir el link del repositorio a la sección correspondiente en la plataforma [empieza](https://empieza.desafiolatam.com "Desafío Latam").
 
 Mucha suerte!
+
+
+
+I. REQUERIMIENTOS
+
+
+			---- Proyecto Barbería -----
+
+
+1. Entregables: 
+	- Guía de estilos: indica colores, fuentes, icono e imagenes a utilizar en la página web.
+	- Mockup de la página de la versión móvil.
+
+2. Requerimientos visuales:
+
+	2.1. Requerimientos Generales:
+		- La página debe ser responsiva.
+		- La página debe contener, una barra de navegación, un footer y 4 secciones.
+
+
+
+
+	2.2 Requerimientos específicos:
+
+	- El layout de la página debe contener: - una barra de navegación,
+						- un header (seccion 1), 
+						- una entrada (sección 2) 
+						- el perfil del autor del artículo (sección 3)
+						- una barra con flechas que permitan ir a las entradas anteriores y siguientes (sección 4)
+						
+
+
+		
+3. Requerimientos técnicos:
+		- Para la estructura HTML, se usara Boostrap
+		- Para los iconos font awesome
+		- Para fuentes google font
+		- Página web responsiva
+		- utilizar metodología BEM en clases CSS
+		- Utilizar Buenas prácticas e identado correcto
+		- Uso de medias queris
+		- uso de git para el versionamiento del proyecto
+
+		
+		
+
