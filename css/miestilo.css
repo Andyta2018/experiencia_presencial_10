@@ -1,14 +1,32 @@
-
+/* Font css*/
 @font-face {
     font-family: PlayfairDisplay-BlackItalic;
     src: url(../assets/fonts/PlayfairDisplay-BlackItalic.ttf);
 }
 
-.navbar.header{
-	background-color: #121619 !important;
+@font-face {
+    font-family: Roboto-Light;
+    src: url(../assets/fonts/Roboto-Light.ttf);
 }
 
+@font-face {
+    font-family: PlayfairDisplay-Regular;
+    src: url(../assets/fonts/PlayfairDisplay-Regular.ttf);
+}
 
+/*Barra navegación css*/
+.navbar-brand-image{
+	margin-left: 5rem;
+}
+
+.navbar.header{
+	background-color: #121619 !important;
+	font-family: Roboto-Light;
+	font-size: 1rem;
+
+}
+
+/*Sección 1 css*/
 .jumbotron-header{
 	background-image: url('../assets/img/post-image.jpg');
 	background-repeat: no-repeat;
@@ -19,10 +37,95 @@
 	font-family: PlayfairDisplay-BlackItalic;
 }
 
+.container-jumbotron-header{
+	text-align: center;
+	font-size: 8rem;
+	padding-left: 12rem;
+	padding-right: 12rem;
+}
+
+.container-jumbotron-header-titulo{
+	font-size: 5rem;
+	padding-top: 10rem;
+}
+
+/*Sección 2 css*/
+.container-secciondos-icon{
+	float: left;
+	margin-right: 0.5rem;
+	width: 1rem;
+	height: 1rem;
+	border-style: 
+}
+
+.container-secciondos-icon-img{
+	color: #707070;
+}
+
+.container-secciondos-fecha{
+	font-family: PlayfairDisplay-Regular;
+	font-size: 0.8rem;
+	color: #707070;
+	float: left;
+
+}
+
+.container-secciondos{
+	padding-left: 15rem;
+	padding-right: 15rem;
+}
+
+.main-secciondos-texto{
+	clear: both;
+	font-family: Roboto-Light;
+	font-size: 0.8rem;
+}
+
+.container-secciondos-heart{
+	float: left;
+	margin-right: 2rem;
+}
+
+.container-secciondos-share{
+	float: left;
+	margin-right: 2rem;
+}
+.container-secciondos-iconos{
+	padding-left: 5rem;
+	margin-top: 3rem;
+	color-interpolation-filters: #707070;
+}
+/*Sección 3 css*/
+.container-secciontres{
+	clear: both;
+}
+
+/*Sección 4 css*/
+.jumbotron-seccioncuatro{
+	margin-bottom: 0px;
+}
+
+
+
+.jumbotron-seccioncuatro-texto1{
+	
+	float: left;
+}
+
+.jumbotron-seccioncuatro-texto2{
+
+	float: left;
+}
+
+/*Footer css*/
 .jumbotron-footer{
+
 	background-color: #121619;
 }
 
-.container-jumbotron-footer{
-
+.container-jumbotron-footer-logo{
+	display: block;
+	margin-right: auto;
+	margin-left: auto;
 }
+
